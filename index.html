@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Basketball Trivia</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header>
+	<h1 id="game-title">Basketball Trivia!</h1><br>
+</header>
+
+<div class="button">
+	<button id="start" <span id="countdown" class="timer"></span>Start</button>
+	<div id="show-number"></div>
+</div><br>
+
+<div id="background">
+	<img src="assets/images/basketball.jpg">
+</div>
+
+<div class="questions">
+	<br><p>1. Which NBA team has won the most championships?</p></br>
+	<li><input type="radio" name="radio1">Los Angeles Lakers</li>
+	<li><input type="radio" name="radio1">Boston Celtics</li>
+	<li><input type="radio" name="radio1">Chicago Bulls</li>
+	<li><input type="radio" name="radio1">Golden State Warriors</li>
+
+	<br><p>2. Which player holds the record for most points scored in a single NBA game?</p></br>
+	<li><input type="radio" name="radio2">Wilt Chamberlain</li>
+	<li><input type="radio" name="radio2">Michael Jordan</li>
+	<li><input type="radio" name="radio2">Kobe Bryant</li>
+	<li><input type="radio" name="radio2">Lebron James</li>
+
+	<br><p>3. What year was Lebron James drafted?</p></br>
+	<li><input type="radio" name="radio3">2001</li>
+	<li><input type="radio" name="radio3">2002</li>
+	<li><input type="radio" name="radio3">2003</li>
+	<li><input type="radio" name="radio3">2004</li>
+
+	<br><p>4. How many teams are in the NBA?</p></br>
+	<li><input type="radio" name="radio4">30</li>
+	<li><input type="radio" name="radio4">42</li>
+	<li><input type="radio" name="radio4">26</li>
+	<li><input type="radio" name="radio4">38</li>
+
+	<br><p>5. Which team won the NBA championship in the 2014-2015 season?</p></br>
+	<li><input type="radio" name="radio5">Los Angeles Lakers</li>
+	<li><input type="radio" name="radio5">Miami Heat</li>
+	<li><input type="radio" name="radio5">San Antonio Spurs</li>
+	<li><input type="radio" name="radio5">Golden State Warriors</li>
+
+	<br><p>6. Who was the number one draft pick in 1997?</p></br>
+	<li><input type="radio" name="radio6">Shaquille O'Neal</li>
+	<li><input type="radio" name="radio6">Tim Duncan</li>
+	<li><input type="radio" name="radio6">Kobe Bryant</li>
+	<li><input type="radio" name="radio6">Allen Iverson</li>
+</div>
+
+<div class="right">
+	<p>Correct Answers: <span id="correct">0</span></p>
+</div>
+
+<div class="wrong">
+	<p>Incorrect Answers: <span id="incorrect">0</span></p>
+</div>
+
+<script type="text/javascript" src="assets/javascript/app.js" 
+ src="https://code.jquery.com/jquery-2.2.0.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+	background: gold;
+}
+
+#game-title {
+	font-family: 'Sigmar One', cursive;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #CCCCCC;
+
+}
+
+
+#background {
+  	margin-left:90px;
+  	text-align:center;
+}
+
+.questions {
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+	font-size: 20px;
+	color: blue;
+	text-align:center;
+	list-style-type: none;
+}
+
+.button {
+	text-align:center;
+}
+
+#start {
+	height:50px;
+	width:200px;
+}
+
+.right {
+	font-size: 30px;
+}
+
+.wrong {
+	font-size: 30px;
+}
